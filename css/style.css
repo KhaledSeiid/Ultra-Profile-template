@@ -105,7 +105,7 @@ header ul li:first-child a {
     background-position: 50% 50%;
     height: 500px;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .landing .text {
     text-align: center;
@@ -339,7 +339,7 @@ header ul li:first-child a {
     height: 100%;
     width: 0;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: #eee;
     z-index: -1;
     transition: .3s;
@@ -367,7 +367,7 @@ header ul li:first-child a {
     background-attachment: fixed;
     display: flex;
     justify-content: flex-end;
-    height: 450px;
+    /* height: 450px; */
 }
 .creative .text {
     width: 50%;
@@ -490,6 +490,7 @@ form input:nth-child(5) {
     animation-duration: .2s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    z-index: 1;
 }
 .load div {
     width: calc(100% / 6);
